@@ -53,6 +53,11 @@ function draw() {
 
   playerArcher.display();
   arrow.display();
+  
+  if (keyCode === 32) {
+	arrow.shoot(playerArcher.body.angle);
+	} 
+
 
 
   // Title
